@@ -1,0 +1,10 @@
+reset;
+
+model dietT.mod;
+data dietT.dat;
+
+option solver cplex;
+
+solve;
+
+display x;
